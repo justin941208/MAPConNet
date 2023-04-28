@@ -2,7 +2,7 @@
 
 This repository is the official implementation of our paper:
 
-**MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning.**
+**MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning.** [[arXiv](https://arxiv.org/pdf/2304.13819.pdf)]
 
 Jiaze Sun<sup>1</sup>, Zhixiang Chen<sup>2</sup>, Tae-Kyun Kim<sup>1,3</sup>
 
