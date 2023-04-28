@@ -71,7 +71,7 @@ There are two options for `--metric`: `PMD` and `CD`, which are Pointwise Mesh D
 
 
 ## Pretrained model checkpoints
-We provide pretrained checkpoints for models (D) and (N) in Table 1 of our paper, which are the best performing models on SMPL and SMAL respectively. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/1BNUcmu35PfYx3RrmxjGejc6f8qyUiwgk?usp=share_link). The downloaded `output` folder should be put under the `MAPConNet` directory.
+We provide pretrained checkpoints for models (D) and (N) in Table 1 of our [paper](https://arxiv.org/pdf/2304.13819.pdf), which are the best performing models on SMPL and SMAL respectively. The checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/1BNUcmu35PfYx3RrmxjGejc6f8qyUiwgk?usp=share_link). The downloaded `output` folder should be put under the `MAPConNet` directory.
 
 - To load the human model checkpoints during testing, set `--dataset_mode` to `human` and `exp_name` to `SMPL`.
 - To load the animal model checkpoints during testing, set `--dataset_mode` to `animal` and `exp_name` to `SMAL`.
