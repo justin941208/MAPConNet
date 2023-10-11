@@ -1,6 +1,6 @@
 # MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning
 
-This repository is the official implementation of our paper:
+This repository is the official implementation of our ICCV 2023 paper:
 
 **MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning.** [[arXiv](https://arxiv.org/pdf/2304.13819.pdf)]
 
@@ -75,3 +75,17 @@ We provide pretrained checkpoints for models (D) and (N) in Table 1 of our [pape
 
 - To load the human model checkpoints during testing, set `--dataset_mode` to `human` and `exp_name` to `SMPL`.
 - To load the animal model checkpoints during testing, set `--dataset_mode` to `animal` and `exp_name` to `SMAL`.
+
+## Citation
+If you find our work useful for your research work, please kindly cite our paper:
+
+```
+@InProceedings{Sun2023MAPConNet,
+    author    = {Sun, Jiaze and Chen, Zhixiang and Kim, Tae-Kyun},
+    title     = {MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {14452-14462}
+}
+```
